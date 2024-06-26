@@ -1,0 +1,84 @@
+body{
+    font-family: noto, sans, japanese ;
+}
+
+/* Nav items customized */
+#about-me{
+    color: white;
+    font-size: large;
+}
+
+
+#skills{
+    color: white;
+    font-size: large;
+}
+
+#projects{
+    color: white;
+    font-size: large;
+}
+
+#contact-me{
+    color: white;
+    font-size: large;
+}
+
+#navbar {
+    background-color: black;
+    /* background-image: */
+    background-size:cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+
+#navbar-brand{
+    font-size: 150%;
+}
+
+.bi.bi-facebook{
+    color: white;
+}
+.bi.bi-twitter{
+   color: white;
+}
+.bi.bi-instagram{
+    color: white;
+}
+.bi.bi-github{
+    color: white;
+}
+.bi.bi-linkedin{
+    color:	white;
+}
+
+/* Custom media query for the specific screen size */
+@media (max-width: 300px) {
+    .navbar-nav {
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+    }
+    .navbar-nav .nav-item {
+        margin-right: 10px; /* Adjust the margin as needed */
+    }
+}
+@media (max-width: 1662px) {
+    .nav-item.stacked {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+#About-me-section{
+    background-color: black;
+}
+
+#About-text{
+    font-size: 100%;
+}
+
+
+
+
