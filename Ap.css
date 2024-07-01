@@ -1,6 +1,9 @@
 body{
-    font-family: noto, sans, japanese ;
+   font-family: Pixelify Sans; 
+   
+
 }
+
 
 /* Nav items customized */
 #about-me{
@@ -25,11 +28,10 @@ body{
 }
 
 #navbar {
-    background-color: black;
     /* background-image: */
-    background-size:cover;
-    background-position: right;
-    background-repeat: no-repeat;
+    background-color: black;
+   
+ 
 }
 
 
@@ -52,6 +54,9 @@ body{
 .bi.bi-linkedin{
     color:	white;
 }
+
+
+
 
 /* Custom media query for the specific screen size */
 @media (max-width: 300px) {
@@ -79,6 +84,115 @@ body{
     font-size: 100%;
 }
 
+#arian-image{
+    border-radius: 5%;
+}
 
+.skill-icons{
+    font-size: 300%;
+    grid-column: auto;
+}
+
+#skills-github{
+    color: #24292e;
+}
+
+#skills-bootstrap{
+    color: #6610f2;
+}
+
+#skills-html{
+    color: #e34c26;
+}
+
+#skills-css{
+    color: #264de4;
+}
+
+#skills-js{
+    color: #f0db4f;
+}
+
+#hi-section{
+    padding: 270px 30px;
+    background-color: black;
+}
+
+.hi-title{
+    font-size:2em;
+    text-align: center;
+    margin-left: 50px;
+    font-size: 3rem;
+    
+}
+.full-stack-title{
+    font-size:2em;
+    text-align: center;
+    margin-left: 50px;
+    font-size: 1.5rem;
+}
+
+.container-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    margin-left:40px;
+}
+
+#contact-btn{
+    
+    border-color: white;
+    
+}
+
+@media (max-width: 768px) {
+    #contact-btn{
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    #hi-section{
+        padding: 300px 30px;
+    }
+
+    .hi-title{
+        margin-right: 30px;
+        font-size: 2.5rem;
+    }
+    .full-stack-title{
+        margin-right: 30px;
+        font-size: 1.2rem;
+        
+    }
+
+}
+
+
+#skills-list-one{
+    background-color: rebeccapurple;
+    font-size: 1rem;
+    border-radius: 10%;
+
+}
+
+#skills-list-two{
+    background-color: purple;
+    font-size: 1rem;
+    border-radius: 10%;
+
+}
+
+#skills-list-three{
+    background-color: #e34c26;
+    font-size: 1rem;
+    border-radius: 10%;
+
+}
+
+#learn{
+    background-color: black;
+}
 
 
