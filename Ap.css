@@ -1,35 +1,71 @@
 body{
-   font-family: Pixelify Sans; 
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
    
 
 }
 
+html, body {
+    overflow-x: hidden;
+    background-color: black;
+}
+
+@media(max-width: 375px){
+    #nav-tabs{
+        font-size: 90%;
+    }
+}
+
+#super-mario {
+    width: 60px;  /* Set desired width */
+    height: 100px; /* Set desired height */
+    margin-top: 30px;
+}
 
 /* Nav items customized */
 #about-me{
+    font-size: 125%;
     color: white;
-    font-size: large;
+    font-weight: bold;
 }
 
-
 #skills{
+    font-size: 125%;
     color: white;
-    font-size: large;
+    font-weight: bold;
 }
 
 #projects{
+    font-size: 125%;
     color: white;
-    font-size: large;
+    font-weight: bold;
 }
 
 #contact-me{
+    font-size: 125%;
     color: white;
-    font-size: large;
+    font-weight: bold;
+    
+
+}
+@media (max-width: 300px) {
+    #hi-section{
+        padding: 300px 30px;
+        background-size: cover !important;
+        background-position: center !important;
+    }
+}
+
+
+
+@media (max-width: 760px) {
+    #contact-section{
+       padding-left: 50px;
+    }
 }
 
 #navbar {
     /* background-image: */
-    background-color: black;
+    background-color: transparent;
    
  
 }
@@ -37,6 +73,12 @@ body{
 
 #navbar-brand{
     font-size: 150%;
+}
+@media (max-width: 768px) {
+    #navbar-brand{
+        font-size:1.3rem;
+       
+    }
 }
 
 .bi.bi-facebook{
@@ -76,46 +118,19 @@ body{
     }
 }
 
-#About-me-section{
-    background-color: black;
-}
-
-#About-text{
-    font-size: 100%;
-}
-
-#arian-image{
-    border-radius: 5%;
-}
-
-.skill-icons{
-    font-size: 300%;
-    grid-column: auto;
-}
-
-#skills-github{
-    color: #24292e;
-}
-
-#skills-bootstrap{
-    color: #6610f2;
-}
-
-#skills-html{
-    color: #e34c26;
-}
-
-#skills-css{
-    color: #264de4;
-}
-
-#skills-js{
-    color: #f0db4f;
-}
+/* Hi section */
 
 #hi-section{
     padding: 270px 30px;
     background-color: black;
+    
+}
+
+#hi-section{
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  
 }
 
 .hi-title{
@@ -138,13 +153,21 @@ body{
     align-items: center;
     height: 100%; 
     margin-left:40px;
+
 }
 
 #contact-btn{
-    
     border-color: white;
-    
+    color: grey; /* Default text color */
+    background-color: black; /* Example background color */
+     /* Optional: Remove border */
 }
+
+#contact-btn:hover {
+    color: white !important; /* Ensures text stays white */
+    background-color: #333; /* Slightly lighter black on hover */
+}
+
 
 @media (max-width: 768px) {
     #contact-btn{
@@ -169,30 +192,66 @@ body{
 
 }
 
+/* About me Section */
 
-#skills-list-one{
-    background-color: rebeccapurple;
-    font-size: 1rem;
-    border-radius: 10%;
+#about-me-section{
+    background: linear-gradient(to right, #000000, #1c1c1c);
+
+    
+}
+#About-text{
+    font-size: small;
+}
+
+.card{
+    border-radius: 10px;
+}
+
+#arian{
+    border-radius:100rem;
+    height: 15rem;
 
 }
 
-#skills-list-two{
-    background-color: purple;
-    font-size: 1rem;
-    border-radius: 10%;
+/* My Stacks */
+
+#stack-div{
+    padding-left: 10em;
+}
+@media (max-width: 768px) {
+    #stack-div{
+        justify-content: center; /* EDIT THIS SO MY STACK TEXT ISN FUCKED */
+    }
+}
+
+#stack-img{
+    width: 50px;
+}
+
+#bootstrap-img{
+    width: 50px;
+}
+
+#icon-div{
+    padding-left: 13em;
+   
+}
+
+/* Project Stack */
+
+#project-section{
+background: linear-gradient(180deg, #0f0f0f, #1e1e1e, #292929);
 
 }
 
-#skills-list-three{
-    background-color: #e34c26;
-    font-size: 1rem;
-    border-radius: 10%;
 
+/* Copyright */
+
+#copyright{
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#learn{
-    background-color: black;
+#email{
+    font-size: large;
 }
-
-

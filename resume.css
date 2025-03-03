@@ -1,0 +1,75 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#navbar{
+    background-color: black;
+
+}
+/* Nav items customized */
+#navbar-brand{
+    font-size: 150%;
+}
+
+@media (max-width: 300px) {
+    .navbar-nav {
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+    }
+    .navbar-nav .nav-item {
+        margin-right: 10px; /* Adjust the margin as needed */
+    }
+}
+@media (max-width: 1662px) {
+    .nav-item.stacked {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+@media (max-width: 768px) {
+    #navbar-brand{
+        font-size:1.3rem;
+       
+    }
+}
+
+#about-me{
+    font-size: 125%;
+    color: white;
+    font-weight: bold;
+}
+
+#skills{
+    font-size: 125%;
+    color: white;
+    font-weight: bold;
+}
+
+#projects{
+    font-size: 125%;
+    color: white;
+    font-weight: bold;
+}
+
+#contact-me{
+    font-size: 125%;
+    color: white;
+    font-weight: bold;
+    
+
+}
+
+#resume-div{
+    padding-top: 10em;
+    margin-bottom: 10em;
+}
+
+@media (max-width: 991px) {
+    #resume-div{
+     padding-top: 15em;
+    }
+}
+
+
+
